@@ -1,0 +1,182 @@
+body{
+
+    margin:0;
+    padding:0;
+
+    background:linear-gradient(
+        135deg,
+        #FFF8F0,
+        #F6F3FF
+    );
+
+    font-family:'Comic Sans MS', cursive;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+}
+
+.container{
+
+    width:600px;
+
+    text-align:center;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:35px;
+
+    border:6px solid #A594F9;
+
+    box-shadow:0px 10px 30px rgba(0,0,0,0.12);
+}
+
+h1{
+
+    color:#7C73FF;
+
+    font-size:52px;
+
+    margin-bottom:25px;
+
+    line-height:1.3;
+}
+
+.level-box{
+
+    margin-bottom:25px;
+}
+
+label{
+
+    display:block;
+
+    margin-bottom:12px;
+
+    font-size:24px;
+
+    color:#7C73FF;
+
+    font-weight:bold;
+}
+
+select{
+
+    padding:12px 20px;
+
+    border-radius:15px;
+
+    border:3px solid #A594F9;
+
+    font-size:18px;
+
+    background:#F6F3FF;
+
+    color:#555;
+
+    cursor:pointer;
+
+    outline:none;
+}
+
+#target-letter{
+
+    color:#7C73FF;
+
+    font-size:42px;
+
+    margin-bottom:25px;
+
+    background:#F6F3FF;
+
+    padding:15px;
+
+    border-radius:20px;
+
+    border:4px dashed #FFD93D;
+}
+
+canvas{
+
+    border:10px dashed #A594F9;
+
+    background:black;
+
+    border-radius:25px;
+
+    cursor:crosshair;
+
+    box-shadow:0px 5px 15px rgba(0,0,0,0.15);
+}
+
+.buttons{
+
+    margin-top:30px;
+}
+
+button{
+
+    padding:15px 35px;
+
+    margin:10px;
+
+    border:none;
+
+    border-radius:20px;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    color:white;
+
+    background:#7C73FF;
+
+    box-shadow:0px 4px 10px rgba(0,0,0,0.15);
+}
+#change-btn{
+
+    background:#FF9BD2;
+}
+
+#change-btn:hover{
+
+    background:#FF7EB6;
+}
+
+button:hover{
+
+    transform:scale(1.08);
+
+    background:#6A5AE0;
+}
+
+#prediction{
+
+    margin-top:30px;
+
+    font-size:34px;
+
+    color:#555;
+
+    font-weight:bold;
+}
+
+#result{
+
+    font-size:42px;
+
+    font-weight:bold;
+
+    margin-top:20px;
+}

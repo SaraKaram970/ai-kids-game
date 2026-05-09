@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Kids Game</title>
+
+    <link rel="stylesheet"
+          href="static/style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Kids Handwriting Game</h1>
+
+        <div class="level-box">
+
+            <label for="level-select">
+                Choose Level
+            </label>
+
+            <select id="level-select">
+
+                <option value="letters">
+                    Level 1 -  A-Z & a-z
+                </option>
+
+                <option value="numbers">
+                    Level 2 - 0-9
+                </option>
+
+                <option value="symbols">
+                    Level 3 - Symbols
+                </option>
+
+            </select>
+
+        </div>
+
+        <h2 id="target-letter">
+            Draw: A
+        </h2>
+
+        <canvas id="canvas"
+                width="280"
+                height="280">
+        </canvas>
+
+        <div class="buttons">
+
+            <button id="clear-btn">
+                Clear
+            </button>
+
+            <button id="predict-btn">
+                Submit
+            </button>
+                <button id="change-btn">
+                 Change Letter
+              </button>
+
+
+        </div>
+
+
+        <h2 id="result"></h2>
+
+    </div>
+
+    <script src="static/script.js"></script>
+
+</body>
+
+</html>
